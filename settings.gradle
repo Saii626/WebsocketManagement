@@ -1,0 +1,4 @@
+rootProject.name = 'WebsocketManagement'
+include 'WebSocketManagement'
+findProject(':WebSocketManagement')?.name = 'WebsocketManagement'
+
